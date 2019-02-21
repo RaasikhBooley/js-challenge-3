@@ -6,6 +6,7 @@
     <title>Rainbow 1</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
+    <!-- CSS -->
     <style>
         .container {
             text-align: center;
@@ -14,10 +15,12 @@
     </style>
 </head>
 <body>
-    <script type="text/javascript">
+    <!-- JavaScript -->
+        <script type="text/javascript">
     // Array
-    var rainbow = ["red", "orange", "yellow", "green", "blue", "indigo", "violet"];
+        var rainbow = ["red", "orange", "yellow", "green", "blue", "indigo", "violet"];
 
+    // Functions
         function displayRed () {
             document.getElementById('red').style.backgroundColor = "red"; 
         } 
@@ -47,15 +50,16 @@
         }
 
     </script>
-
-    <div class="container">
-        <div id="red" onclick="displayRed('red')">red</div>
-        <div id="orange" onclick="displayOrange('orange')">orange</div>
-        <div id="yellow" onclick="displayYellow('yellow')">yellow</div>
-        <div id="green" onclick="displayGreen('green')">green</div>
-        <div id="blue" onclick="displayBlue('blue')">blue</div>
-        <div id="indigo" onclick="displayIndigo('indigo')">indigo</div>
-        <div id="violet" onclick="displayViolet('violet')">violet</div>
-    </div>
+    
+    <!-- HTML -->
+        <div class="container">
+            <div id="red" onclick="displayRed('red')">red</div>
+            <div id="orange" onclick="displayOrange('orange')">orange</div>
+            <div id="yellow" onclick="displayYellow('yellow')">yellow</div>
+            <div id="green" onclick="displayGreen('green')">green</div>
+            <div id="blue" onclick="displayBlue('blue')">blue</div>
+            <div id="indigo" onclick="displayIndigo('indigo')">indigo</div>
+            <div id="violet" onclick="displayViolet('violet')">violet</div>
+        </div>
 </body>
 </html>
